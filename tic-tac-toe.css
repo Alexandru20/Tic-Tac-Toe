@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.container {
+    display: grid;
+    width: 50vw;
+    height: 50vh;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    gap : 10px;
+    
+
+}
+.container>div{
+    border: solid black 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.wrapper{
+    display: grid;
+    gap: 20px;
+    
+    
+}
+.winner-display{
+    font-size: 1.5rem;
+    border: solid black 2px;
+    padding: 20px;
+    justify-self: center;
+ 
+}
+
+.restart, #start-game{
+    width: 10vw;
+    justify-self: center;
+    
+}
