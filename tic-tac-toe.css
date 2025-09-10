@@ -4,6 +4,7 @@ body{
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    font-family: "Lora", serif;
 }
 .container {
     display: grid;
@@ -43,4 +44,8 @@ body{
     width: 10vw;
     justify-self: center;
     
+}
+
+footer{
+    width: 50vw;
 }
